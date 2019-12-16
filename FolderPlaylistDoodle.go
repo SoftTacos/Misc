@@ -34,7 +34,7 @@ func main() {
 	songs := []byte{}
 	args := os.Args //arg1 is folder to read
 	if len(args) < 2 {
-		fmt.Print("ya fucked up")
+		fmt.Print("ya goofd")
 		return
 	}
 	files, err := ioutil.ReadDir(args[1])
